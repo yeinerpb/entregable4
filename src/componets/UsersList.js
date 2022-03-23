@@ -3,8 +3,7 @@ import Swal from 'sweetalert2';
 
 
 const UsersList = ({users, setUserSelected, deleteUser}) => {
-    const [showForm, setShowForm] = useState(false);
-
+   
     const handleDelete = (id) => {
         Swal.fire({
             title: '¿estás seguro?',
