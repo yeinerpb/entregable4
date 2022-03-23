@@ -47,7 +47,7 @@ const UsersForm = ({getUsers, userSelected, setUserSelected}) => {
                  setPassword("");
                  setBirthday("");
              })
-             .catch(error => console.log(error.response))
+             
             }
  
         }
